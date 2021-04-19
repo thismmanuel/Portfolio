@@ -3,6 +3,7 @@ body{
     /* margin: 0px 20px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
+    background-color: rgb(31, 5, 49);
 }
 h2{
     margin: 0;
@@ -81,4 +82,63 @@ section img{
     margin: 20px;
     padding: 0px 10px;
 
+}
+.background{
+    padding: 30px 0px;
+}
+.background p{
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-left: 1px solid rgb(249, 223, 80);
+}
+.findme{
+    background-color: rgb(249, 223, 80);
+    display: block;
+}
+.findme h2{
+    padding: 30px 0px;
+}
+input[type=text], select, textarea{
+    width: 70%;
+    padding: 12px;
+    border-bottom: 1px solid rgb(31, 5, 49);
+    box-sizing:border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email], select, textarea{
+    width: 70%;
+    padding: 12px;
+    border-bottom: 1px solid rgb(31, 5, 49);
+    box-sizing:border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    border: 1px solid rgb(31, 5, 49);
+    padding: 12px 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(249, 223, 80);
+}
+.container{
+
+}
+
+
+footer{
+    height: 100px;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+footer a{
+    width: 15%;
+    margin: 0 30px 0 30px;
+    color: rgb(249, 223, 80);
 }
