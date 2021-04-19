@@ -8,18 +8,19 @@ h2{
     margin: 0;
 }
 header{
-    width: 80%;
+    width: 100%;
     display: inline-flex;
-    justify-content: space-between;
-    padding: 25px 100px;
+    justify-content: space-evenly;
+    padding: 25px 0px;
     background-color: rgb(31, 5, 49);
 }
 header a{
     color: white;
     text-decoration: none;
+    width: 10%;
 }
 section.myphoto{
-    width: 94.3%;
+    width: 100%;
     display: inline-flex;
     justify-content: space-around;
     /* background-image: url(bckgrnd.png); */
@@ -27,9 +28,12 @@ section.myphoto{
 }
 section img{
     /* box-shadow: -5px -5px plum; */
+    padding: 30px;
 }
 .aboutcont{
     margin: 10px;
+    text-align: left;
+    padding: 100px 50px 50px 50px;
 }
 .hello{
     display: flex;
