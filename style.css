@@ -1,4 +1,33 @@
 body{
     text-align: center;
-    margin: 0 30px;
+    /* margin: 0px 20px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    background-color: cadetblue;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+section.myphoto{
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-image: url(bckgrnd.png);
+    background-color: #e5f2f7;
+}
+.aboutcont{
+    margin: 10px;
+}
+.hello{
+    display: flex;
+    /* margin: ; */
+    font-size: 12px;
+    font-style: italic;
+    font-family: ;
 }
