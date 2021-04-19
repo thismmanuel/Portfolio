@@ -1,25 +1,32 @@
 body{
     text-align: center;
     /* margin: 0px 20px; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+h2{
+    margin: 0;
 }
 header{
     width: 80%;
     display: inline-flex;
     justify-content: space-between;
     padding: 25px 100px;
-    background-color: cadetblue;
+    background-color: rgb(31, 5, 49);
 }
 header a{
     color: white;
     text-decoration: none;
 }
 section.myphoto{
-    width: 90%;
+    width: 94.3%;
     display: inline-flex;
-    justify-content: space-between;
-    background-image: url(bckgrnd.png);
-    background-color: #e5f2f7;
+    justify-content: space-around;
+    /* background-image: url(bckgrnd.png); */
+    background-color: rgb(249, 223, 80);
+}
+section img{
+    /* box-shadow: -5px -5px plum; */
 }
 .aboutcont{
     margin: 10px;
@@ -30,4 +37,44 @@ section.myphoto{
     font-size: 12px;
     font-style: italic;
     font-family: ;
+}
+.purple{
+    background-color: rgb(31, 5, 49);
+    color: white;
+}
+.services{
+    padding: 30px 0px;
+}
+.services p{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 30%;
+    /* height: 100px; */
+    padding: 40px 0px;
+    border: 1px solid rgb(249, 223, 80);
+    /* margin: 25px; */
+}
+.skills{
+    padding: 30px 0px;
+}
+.skills h2{
+    padding-bottom: 20px;
+}
+.skills div{
+    display: inline-flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.projects{
+    padding: 30px 0px;
+}
+.projects p{
+    display: inline-flex;
+    width: auto;
+    border-bottom: 1px  solid rgb(249, 223, 80);
+    border-left: 1px  solid rgb(249, 223, 80);
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 0px 10px;
+
 }
